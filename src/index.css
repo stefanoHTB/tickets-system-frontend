@@ -1,0 +1,207 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+a { color: inherit;
+  text-decoration: none;
+} 
+
+.ticket-form-main {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+}
+.ticket-form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.ticket-form h1{
+  margin: 10px;
+  padding: 10px;
+  color: white;
+
+}
+
+.ticket-form input{
+  margin: 10px;
+  width: 80%;
+  padding: 10px;
+
+}
+
+.ticket-form textarea{
+  margin: 10px;
+  width: 84%;
+
+  height: 200px;
+}
+
+.ticket-form button{
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  width: 85%;
+
+}
+
+
+.navbar {
+  display: flex;
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+
+}
+
+.navbar li{
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+
+.navbar li:hover{
+  background-color: white;
+  color: black;
+
+}
+
+.ticket-main-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.ticket {
+  background-color: white;
+  
+  border: 1px solid black;
+  width: 90%;
+  margin: 20px;
+  padding: 30px;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.ticket-inside-inside {
+  /* padding: 20px; */
+}
+
+.ticket-inside-inside h3 {
+  padding: 12px;
+  font-size: 30px;
+
+}
+
+.ticket-inside-inside h3:hover {
+  text-decoration: underline;
+
+
+}
+
+
+
+
+.answer-section {
+  background-color: black;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+ 
+
+}
+
+.answer-section-inside{
+  display: flex;
+
+}
+
+.answer-section textarea {
+  padding: 10px;
+  width: 90%;
+  
+}
+
+.answer-section button {
+  padding: 10px;
+  background-color: rgb(12, 98, 178);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.answer-section button:hover {
+  background-color: rgb(18, 72, 125);
+  
+}
+
+.single-ticket {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(232, 232, 232);
+}
+
+.single-ticket h3 {
+  padding: 2px;
+  color: rgb(80, 79, 79);
+
+}
+
+.answers-area {
+  height: 100vh;
+
+}
+
+.answer-answer{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.update-status-form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.update-status-form button{
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(12, 98, 178);
+  color: white;
+  cursor: pointer;
+}
+
+.update-status-form button:hover{
+
+  background-color: rgb(8, 38, 66);
+  color: white;
+}
+
+
+.message-div {
+  padding: 15px;
+}
